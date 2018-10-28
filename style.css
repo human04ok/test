@@ -20,7 +20,7 @@ h1, h2 {
 }
 h1 {
   font-family: "Cormorant SC", serif;
-  font-size: 2em;
+  font-size: 4em;
   line-height: 1em;
 }
 h2 {
@@ -40,8 +40,8 @@ h2 {
       32,
       center center,
       960,
-      from(rgba(255, 255, 255, 0)),
-      to(#e57373)
+      from(rgba(#e57373)),
+      to(255,255,255,0)
     );
   background-image: radial-gradient(rgba(255, 255, 255, 0), #e57373);
 }
